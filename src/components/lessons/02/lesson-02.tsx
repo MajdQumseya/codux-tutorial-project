@@ -29,11 +29,21 @@ export const Lesson02: React.FC = () => {
                 </div>
                 <div className={styles.row}>
                     <Box
-                        text={'5'}
-                        className={styles.box05}
-                        color={'dirtyWhite'}
+                        text={'3'}
+                        className={styles.box03}
+                        color={'goldYellow'}
+                    />
+                    <Box
+                        text={'4'}
+                        className={styles.box04}
+                        color={'darkLavender'}
                     />
                 </div>
+                <Box
+                    text={'5'}
+                    className={styles.box05}
+                    color={'dirtyWhite'}
+                />
                 <div className={styles.row}>
                     <Box
                         text={'6'}
@@ -46,18 +56,6 @@ export const Lesson02: React.FC = () => {
                         color={'orangeRed'}
                     />
                     <Box text={'8'} className={styles.box08} color={'hotRed'} />
-                </div>
-                <div className={styles.row}>
-                    <Box
-                        text={'3'}
-                        className={styles.box03}
-                        color={'goldYellow'}
-                    />
-                    <Box
-                        text={'4'}
-                        className={styles.box04}
-                        color={'darkLavender'}
-                    />
                 </div>
                 <ConfettiFx
                     maxParticles={400}
